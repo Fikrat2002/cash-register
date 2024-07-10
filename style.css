@@ -92,76 +92,76 @@ button {
 
 @media only screen and (max-width: 768px) {
   #container {
-        width: 80%;
+    width: 80%;
   }
 
   h1 {
-        font-size: 55px;
+    font-size: 55px;
   }
 
   input {
-        width: 80%;
-        font-size: 40px;
-        padding: 30px;
+    width: 80%;
+    font-size: 40px;
+    padding: 30px;
   }
 
   button {
-        padding: 40px;
-        font-size: 25px;
+    padding: 40px;
+    font-size: 25px;
   }
 
   #price {
-        font-size: 40px;
+    font-size: 40px;
   }
 
   #change-due,
   #cash-in-drawer {
-        font-size: 40px;
+    font-size: 40px;
   }
 
   #cash-in-drawer {
-        width: calc(100% - 50px);
+    width: calc(100% - 50px);
   }
 
   #change {
-        font-size: 45px;
+    font-size: 45px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   #container {
-        width: 90%;
+    width: 90%;
   }
 
   h1 {
-        font-size: 40px;
+    font-size: 40px;
   }
 
   input {
-        width: 90%;
-        font-size: 30px;
-        padding: 20px;
+    width: 90%;
+    font-size: 30px;
+    padding: 20px;
   }
 
   button {
-        padding: 30px;
-        font-size: 20px;
+    padding: 30px;
+    font-size: 20px;
   }
 
   #price {
-        font-size: 30px;
+    font-size: 30px;
   }
 
   #change-due,
   #cash-in-drawer {
-        font-size: 35px;
+    font-size: 35px;
   }
 
   #cash-in-drawer {
-        width: calc(100% - 50px);
+    width: calc(100% - 50px);
   }
 
   #change {
-        font-size: 40px;
+    font-size: 40px;
   }
 }
