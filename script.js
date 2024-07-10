@@ -12,7 +12,7 @@ let cid = [
   ['FIVE', 55],
   ['TEN', 20],
   ['TWENTY', 60],
-  ['ONE HUNDRED', 100]
+  ['ONE HUNDRED', 100],
 ];
 
 document.getElementById('price').innerHTML = `<b>Price:</b> ${price}`;
@@ -25,7 +25,7 @@ const checkRegister = () => {
   document.getElementById('change').innerHTML = `<b>Change:</b> ${change}`;
 
   if (cashInt < price) {
-    alert('Customer does not have enough money to purchase the item');
+    displayChangeDue.innerText = ('Customer does not have enough money to purchase the item');
     return;
   }
   if (cashInt === price) {
@@ -43,8 +43,8 @@ const checkRegister = () => {
 
   const denominations = [100, 20, 10, 5, 1, 0.25, 0.10, 0.05, 0.01];
   const denominationNames = ['ONE HUNDRED', 'TWENTY', 'TEN', 'FIVE', 'ONE', 'QUARTER', 'DIME', 'NICKEL', 'PENNY'];
-  let changeArr = [];
-  let cidCopy = [...cid];
+  const changeArr = [];
+  const cidCopy = [...cid];
 
   for (let i = 0; i < denominations.length; i++) {
     let totalDenom = 0;
