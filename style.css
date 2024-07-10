@@ -31,7 +31,7 @@ body {
   padding: 15px;
   border-radius: 8px;
   border: solid var(--blue);
-  box-shadow: 0px 0px 20px 20px var(--orange);
+  box-shadow: 0.1px 0.1px 20px 20px var(--orange);
 }
 
 h1 {
@@ -41,7 +41,6 @@ h1 {
 }
 
 input {
-  border: none;
   outline: none;
   padding: 35px;
   border-radius: 9px;
@@ -49,7 +48,7 @@ input {
   margin-top: 20px;
   width: 60%;
   border: solid var(--grey);
-  box-shadow: 0px 0px 10px 10px var(--grey);
+  box-shadow: 0.1px 0.1px 10px 10px var(--grey);
   font-size: 50px;
 }
 
@@ -58,7 +57,6 @@ button {
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: none;
   cursor: pointer;
   padding: 50px;
   border-radius: 4px;
@@ -78,14 +76,14 @@ button {
 #cash-in-drawer {
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 25px;
   font-size: 48px;
   margin-left: 20px;
   margin-right: 20px;
   color: var(--black);
   background-color: var(--light-grey);
-  box-shadow: 0px 0px 10px 10px var(--sky);
+  box-shadow: 0.1px 0.1px 10px 10px var(--sky);
 }
 
 #change {
@@ -95,75 +93,75 @@ button {
 @media only screen and (max-width: 768px) {
   #container {
       width: 80%;
-  }
+    }
 
   h1 {
       font-size: 55px;
-  }
+    }
 
   input {
       width: 80%;
       font-size: 40px;
       padding: 30px;
-  }
+    }
 
   button {
       padding: 40px;
       font-size: 25px;
-  }
+    }
 
   #price {
       font-size: 40px;
-  }
+    }
 
   #change-due,
   #cash-in-drawer {
       font-size: 40px;
-  }
+    }
 
   #cash-in-drawer {
       width: calc(100% - 50px);
-  }
+    }
 
   #change {
       font-size: 45px;
-  }
+    }
 }
 
 @media only screen and (max-width: 500px) {
   #container {
       width: 90%;
-  }
+    }
 
   h1 {
       font-size: 40px;
-  }
+    }
 
   input {
       width: 90%;
       font-size: 30px;
       padding: 20px;
-  }
+    }
 
   button {
       padding: 30px;
       font-size: 20px;
-  }
+    }
 
   #price {
       font-size: 30px;
-  }
+    }
 
   #change-due,
   #cash-in-drawer {
       font-size: 35px;
-  }
+    }
 
   #cash-in-drawer {
       width: calc(100% - 50px);
-  }
+    }
 
   #change {
       font-size: 40px;
-  }
+    }
 }
