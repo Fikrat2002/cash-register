@@ -11,7 +11,8 @@ Welcome to my project showcasing a fully functional cash register app built usin
 )
 
 ## Deployment
-- 
+- https://github.com/Fikrat2002/cash-register/actions/runs/9875703506/job/27273090568
+
 ## Technologies Used 🛠️
 
 The technologies employed in this project include:
