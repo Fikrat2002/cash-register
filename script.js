@@ -52,7 +52,7 @@ const checkRegister = () => {
       cidCopy[cidCopy.length - 1 - i][1] = Number(
         (cidCopy[cidCopy.length - 1 - i][1] - denominations[i])
           .toFixed(2),
-    );
+      );
       change = Number((change - denominations[i]).toFixed(2));
       totalDenom += denominations[i];
     }
