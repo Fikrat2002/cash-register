@@ -6,15 +6,14 @@ Welcome to my project showcasing a fully functional cash register app built usin
 
 ## Demo 📸
 
-- Take a glimpse of the page below: 
-(#<img width="949" alt="Screenshot 2024-07-10 085438" src="https://github.com/Fikrat2002/cash-register/assets/168417613/2a6e58cf-0ee0-4d85-84f3-25efa06246e1">
-)
+- Take a glimpse of the page below:
+(#<img width="949" alt="Screenshot 2024-07-10 085438" src="https://github.com/Fikrat2002/cash-register/assets/168417613/1bb0d4de-c56a-4041-9d61-acf8c88377d5">
 
 ## Deployment
 - https://github.com/Fikrat2002/cash-register/actions/runs/9875703506/job/27273090568
 
-## Technologies Used 🛠
 
+## Technologies Used 🛠
 The technologies employed in this project include:
 
 - HTML
@@ -27,14 +26,18 @@ To explore the project, follow these steps:
 
 1. Clone the repository to your local machine:
 
-bash
+```bash
 git clone git@github.com:Fikrat2002/cash-register.git
-
+```
 
 2. Navigate to the cloned directory:
 
-bash
+```bash
 cd cash-register
+```
+
+bash
+git clone git@github.com:Fikrat2002/cash-register.git
 
 
 3. Open the index.html file in your web browser.
@@ -43,6 +46,10 @@ cd cash-register
 
 1. Clone the repository to your local machine.
 2. Open the index.html file in your web browser.
+
+```bash
+git clone git@github.com:Fikrat2002/cash-register.git
+```
 
 bash
 git clone git@github.com:Fikrat2002/cash-register.git
@@ -67,4 +74,5 @@ For inquiries or support, please contact:
 
 - Github: [Fikrat2002](https://github.com/Fikrat2002)
 - LinkedIn: [Khatira Fikrat](https://www.linkedin.com/in/khatira-fikrat-671404311)
+
 - Email: [Khatira Fikrat](fekratkhatira@gmail.com)
